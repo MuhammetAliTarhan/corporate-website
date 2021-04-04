@@ -1,0 +1,11 @@
+/* GENERAL STYLING */
+html { scroll-behavior: smooth; }
+*::-webkit-scrollbar { width: 3px; background-color: #eee; } 
+*::-webkit-scrollbar-track { background-color: #ccc; width:1px; border:1px solid #fff; }
+*::-webkit-scrollbar-button { display: none; }
+*::-webkit-scrollbar-thumb { background-color: #000; }
+h3 {font-size: 13px;font-weight: 400;}
+h2 {font-size: 32px;font-weight: 400;color: #1886C7;text-transform: uppercase;}
+p {	font-size: 14px;}
+.btnScrollUp {cursor: pointer;position: fixed;right: 20px;bottom: 10px;width: 40px;height: 40px;
+	background: url(../img/btnYukariGit.png) no-repeat center center;background-size: contain; }
