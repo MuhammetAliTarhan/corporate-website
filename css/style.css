@@ -9,3 +9,73 @@ h2 {font-size: 32px;font-weight: 400;color: #1886C7;text-transform: uppercase;}
 p {	font-size: 14px;}
 .btnScrollUp {cursor: pointer;position: fixed;right: 20px;bottom: 10px;width: 40px;height: 40px;
 	background: url(../img/btnYukariGit.png) no-repeat center center;background-size: contain; }
+
+
+/* NAVBAR */
+
+.navbar {
+	border-bottom: #1886C7 4px solid;
+}
+.navbar .navbar-brand {
+	color: #1886C7;
+	font-size: 22px;
+}
+.bg-dark {
+	background-color: rgba(0,0,0,1) !important;
+}
+.nav-link {
+	transition: color .5s ease !important;
+}
+.nav-link:hover {
+	color: #1886C7 !important;
+}
+
+
+/* HEADER */
+
+header {
+	background-image: url(../img/bg-header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+header .overlay {
+	background-color: rgba(0,0,0,0.7);
+}
+
+header .row {
+	height: 100vh;
+}
+
+header span {
+	color: #1886c7;
+}
+
+
+/* FEATURES */
+
+.features .fab, .features .fas {
+	font-size: 40px;
+}
+
+.features-top {
+	color: #1886C7;
+	transition: color .5s ease !important;
+}
+
+.features-top:hover {
+	color: #000;
+}
+
+/* OUR HISTORY */
+
+#our-history h2 {
+	border-left: 6px solid #1886C7;
+	padding-left: 30px;
+}
+
+#our-history p {
+	text-align: justify;
+	line-height: 25px;
+}
