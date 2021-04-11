@@ -79,3 +79,128 @@ header span {
 	text-align: justify;
 	line-height: 25px;
 }
+
+/* TEAM */
+
+#team .card {
+	border: none;
+	cursor: pointer;
+}
+
+#team .col-md-3:hover {
+	opacity: 0.8;
+	transition: all 0.5s ease;
+}
+
+#team .fab {
+	font-size: 22px;
+}
+
+/* WHAT WE DO */
+#what-we-do {
+	background: linear-gradient(
+	rgba(0,0,0,0.7),
+	rgba(0,0,0.7)
+	),
+	url(../img/bg-code.jpg) fixed center center no-repeat;
+	background-size: cover;
+}
+
+/* CASE STUDY */
+#case-study {
+	background-color: #f4f5f9;
+	line-height: 30px;
+}
+
+#case-study {
+	background-color: #fff;
+	margin: 40px 50px 0 0;
+	color: #1886C7;
+}
+
+#case-study .btn {
+	margin-top: 15px;
+}
+
+/* PORTFOLİO SECTİON */
+#portfolio {
+	background-color: #f4f4f4;
+}
+
+#portfolio h3 {
+	font-style: 16px;
+	font-weight: 300;
+}
+
+#portfolio .fa {
+	font-style: 24px;
+	margin-bottom: 20px;
+}
+
+#portfolio p {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.image-container {
+	position: relative;
+	cursor: pointer;
+}
+
+.image-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background-color: #1886C7;
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+.image-container:hover .image-overlay {
+	opacity: .7;
+}
+
+.image-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* CONTACT */
+#contact {
+	background-color: #f4f4f4;
+}
+#contact h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #1886C7;
+}
+
+#contact .input-group-prepend span {
+	width: 50px;
+	background-color: #1886C7;
+}
+
+
+/* RESPONSİVE */
+@media screen and (max-width: 992px) {
+	.display-3 {
+		font-size: 35px !important;
+	}
+
+	.case-study .case-area {
+		margin-right: 0px;
+	}
+
+	.case-study .case-image {
+		display: none;
+	}
+
+	#contact {
+		text-align: center;
+	}
+}
